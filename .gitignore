@@ -1,5 +1,7 @@
 .env
 *.db
+backend/logs/*.log
+*.tsbuildinfo
 __pycache__/
 *.py[cod]
 .venv/

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "case_001",
+    "prompt_text": "Write a concise greeting for a new user.",
+    "locale": "en",
+    "min_overall_score": 0.7,
+    "description": "English onboarding greeting"
+  },
+  {
+    "id": "case_002",
+    "prompt_text": "Resume la política de devoluciones en una frase con énfasis en claridad.",
+    "locale": "es",
+    "min_overall_score": 0.7,
+    "description": "Spanish return-policy summary"
+  },
+  {
+    "id": "case_003",
+    "prompt_text": "Rédige un message bref pour confirmer une réservation.",
+    "locale": "fr",
+    "min_overall_score": 0.7,
+    "description": "French booking confirmation"
+  },
+  {
+    "id": "case_004",
+    "prompt_text": "Explain how to reset a password in two short steps.",
+    "locale": "en",
+    "min_overall_score": 0.7,
+    "description": "English support instructions"
+  },
+  {
+    "id": "case_005",
+    "prompt_text": "Erstelle eine kurze Statusmeldung für eine verspätete Lieferung.",
+    "locale": "de",
+    "min_overall_score": 0.7,
+    "description": "German delivery-delay status"
+  },
+  {
+    "id": "case_006",
+    "prompt_text": "Summarize the checkout error without adding policy claims.",
+    "locale": "es",
+    "min_overall_score": 0.6,
+    "description": "Borderline Spanish fallback detection"
+  }
+]

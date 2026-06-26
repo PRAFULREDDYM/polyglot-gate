@@ -1,0 +1,25 @@
+- id: PII_EMAIL
+  name: Email address
+  severity: medium
+  pattern: '\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b'
+  description: Detects email-address-like text.
+- id: PII_PHONE
+  name: Phone number
+  severity: medium
+  pattern: '(?<!\d)(?:\+?\d[\d\s().-]{7,}\d)(?!\d)'
+  description: Detects phone-number-like digit sequences.
+- id: PROFANITY_PLACEHOLDER
+  name: Placeholder profanity
+  severity: low
+  pattern: '\b(?:badword1|badword2)\b'
+  description: Detects harmless placeholder blocked-word tokens.
+- id: UNVERIFIED_MEDICAL_CLAIM
+  name: Unverified medical claim
+  severity: high
+  pattern: '\b(?:cures cancer|guaranteed to heal)\b'
+  description: Detects illustrative absolute medical cure claims.
+- id: LOCALE_MISMATCH
+  name: Locale formality mismatch
+  severity: low
+  pattern:
+  description: Placeholder non-regex rule for locale-specific formality markers.
